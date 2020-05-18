@@ -1,0 +1,181 @@
+body {
+  background-color: #FFF5DB;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: content-box !important;
+}
+a:hover {
+  color: #2B1023 !important;
+}
+img{
+  height: 48%;
+  width: 48%;
+}
+/* Class CSS */
+.navbar-toggler-custom{
+  width: 36px;
+  height: 28px;
+  border: none;
+  background-color: #FFF5DB !important;
+  overflow: hidden;
+}
+.centered{
+  position: fixed;
+  left: 50%;
+  top: 0.2rem;
+}
+ .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #2B1023;
+  margin-bottom: 4px;
+}
+.link-text{
+  text-decoration: none;
+  color: #2B1023;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.20vw;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-custom{
+  background-color: #FFF5DB;
+  content: none;
+}
+.logo{
+  font-family: 'Playfair Display', serif;
+  color: #2B1023;
+  font-size: 2.25vw !important;
+  line-height: 0.50rem;
+}
+.top-container{
+  height: auto;
+  position: relative;
+  background-color: #FFF5DB;
+  padding: 2% 0 0 0;
+}
+.searcher-man{
+  position: relative;
+  height: 38%%;
+  width: 34%;
+  padding-right: 3%;
+  padding-left: 55%;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-end;
+}
+.name{
+  font-size: 4.0vw;
+  font-family: 'Gravitas One', cursive;
+  font-weight: 400;
+  color: #2B1023;
+  line-height: 3.0vw;
+  position: absolute;
+  padding: 10% 50% 0 20%;
+  text-align: center;
+}
+.job-label{
+  font-weight: 200;
+  font-size: 2.0vw;
+  font-family: 'Special Elite', cursive;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.middle-section{
+  background-color: #EBDB4A;
+  position: relative;
+  padding: 13% 0 0 0;
+}
+.middle-text{
+  font-size: 4.5vw;
+  font-family: 'Pacifico', cursive;
+  color: #33AEC3;
+  font-weight: normal;
+  position: absolute;
+  padding-left: 60%;
+  text-align: right;
+}
+.middle-para{
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  margin-left: 50%;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-size: 1.75vw;
+  font-style: normal;
+  padding-top: 6.5%;
+  color: #2E6067;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.banjoman{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.skills{
+  background-color: #3ff171;
+  position: relative;
+  padding: 10% 0 0 0;
+}
+.bottom-text{
+  font-size: 4.5vw;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  position: absolute;
+  margin: 0 50% 0 15%;
+  padding-top: 3%;
+  text-align: left;
+  color: #264573;
+}
+.bottom-para{
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  margin: 0 50% 0 5%;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-size: 1.75vw;
+  font-style: normal;
+  padding-top: 10%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #1D5F56;
+}
+.working-man{
+  height: 60%;
+  width: 60%;
+  margin-right: 3%;
+  margin-left: 40%;
+  padding-top: 8%;
+  display: flex;
+  justify-content: flex-end;
+}
+.app-slide{
+  height: 40%;
+  background-color: #4ABBB9;
+  position: relative;
+}
+.slide-custom{
+  padding-top: 5%;
+  position: absolute;
+  height: 60%;
+  width: 60%;
+}
+.carousel-heading{
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 4.5vw;
+  color: black;
+  background: rgba(204, 204, 204, 0.5);
+}
+.carousel-caption{
+}
