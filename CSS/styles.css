@@ -161,21 +161,37 @@ img{
   justify-content: flex-end;
 }
 .app-slide{
-  height: 40%;
-  background-color: #4ABBB9;
   position: relative;
 }
 .slide-custom{
-  padding-top: 5%;
+  background-color: #4ABBB9;
   position: absolute;
-  height: 60%;
-  width: 60%;
+  text-align: center;
 }
 .carousel-heading{
-  font-family: 'Asap Condensed', sans-serif;
-  font-size: 4.5vw;
-  color: black;
-  background: rgba(204, 204, 204, 0.5);
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 3.0vw;
+  line-height: 0.75rem;
+  color: white;
+  background-color: #4ABBB9;
 }
-.carousel-caption{
+.app-slide-text{
+  padding-top: 8.5vw;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 4.5vw;
+  position: relative;
+  background-color: #4ABBB9;
+}
+.app-slide-para{
+  padding-top: 0.50vw;
+  padding-bottom: 5vw;
+  color: #010725;
+  background-color: #4ABBB9;
+  position: absolute;
+  font-size: 1.75vw;
+  font-family: adobe-garamond-pro, serif;
+}
+.carousel-image{
+  padding-bottom: 10%;
 }
