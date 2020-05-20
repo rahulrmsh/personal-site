@@ -23,11 +23,10 @@ img{
   overflow: hidden;
 }
 .centered{
-  position: fixed;
   left: 50%;
-  top: 0.2rem;
+  padding-top: 0.2rem;
 }
- .line{
+.line{
   width: 100%;
   float: left;
   height: 2px;
@@ -166,7 +165,7 @@ img{
   background-color: #4ABBB9;
   position: absolute;
   text-align: center;
-  padding-top: 5vw; 
+  padding-top: 5vw;
 }
 .carousel-heading{
   font-family: 'Balsamiq Sans', cursive;
